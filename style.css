@@ -1,0 +1,158 @@
+* {
+   /* border: 2px solid red; */
+   box-sizing: border-box;
+ }
+body {
+   margin: auto;
+   font-family: Verdana, Tahoma, sans-serif;
+}
+
+.texto-sombreado{
+   color: white;
+   font-weight: bold;
+   text-shadow: 1px 1px black;
+}
+
+.divisor{
+   border: 2px dotted grey;
+}
+
+.header {
+   background-color: lightpink;
+   padding-top: 20px;
+   text-align: center;
+}
+
+/* estilos da navbar */
+.navbar{
+   background-color: lightpink;
+   border-top: 10px dotted white;
+   text-align: center;
+   position: sticky;
+   top: 0;
+   border-radius: 0px 0px 20px 20px;
+   box-shadow: 0px 5px 10px rgb(187, 138, 146);
+}
+.navbar a{
+   text-decoration: none;
+   color: white;
+   display: inline-block;
+   padding: 20px;
+   font-size: 22px;
+   margin: 0;
+   
+}
+
+.navbar a:hover{
+   background-color: rgb(194, 142, 150);
+   border-radius: 10px;
+}
+
+/* estilos do conteudo */
+.conteudo{
+   font-size: 22px;
+}
+
+.conteudo p{
+   text-align: center;
+   display: block;
+   width: 100%;
+   padding: 0px 20% 20px;
+   margin: 20px auto;
+}
+
+.conteudo .imgwide{
+   padding: 0px 20px;
+   background-color: black;
+   box-shadow: 0 5px 8px 0 rgb(187, 138, 146), 
+   0 6px 20px 0 rgb(187, 138, 146);
+}
+
+h3 {
+   display: block;
+   background-color: pink;
+   border-radius: 10px;
+   text-align: center;
+   padding: 20px;
+   width: 25%;
+   margin: auto;
+   box-shadow: 5px 5px rgb(187, 138, 146);
+
+}
+
+/* estilos do cardapio */
+.cardapio{
+   margin: 100px 0;
+   background-color: lightgrey;
+   padding: 100px 0;
+   border-top: 3px dotted white;
+   
+}
+.cardapio table{
+   border-collapse: collapse;
+   width: 60%;
+   margin: auto;
+   margin-top: 50px;
+   background-color: pink;
+   border-radius: 15px;
+   box-shadow: 0 5px 8px 0 rgb(187, 138, 146), 
+   0 6px 20px 0 rgb(187, 138, 146);
+
+}
+.cardapio .descricao{
+   font-size: 16px;
+   text-align: left;
+   padding: 5px 15px;
+}
+.cardapio td, th{
+   text-align: center;
+   padding: 15px 0;
+}
+.cardapio tr:nth-child(even) {
+   border-top: 3px dotted white;
+   border-bottom: 3px dotted white;
+   background-color: white;
+}
+.cardapio tr:last-child{
+   background-color: white;
+   border: inherit;
+   border-top: 3px dotted white;
+}
+
+/* estilos da sessao do local */
+.detalhe-local{
+   display: flex;
+   margin: auto;
+   width: 70%;
+}
+
+.divisao {
+   display: flex;
+   flex: 50%;
+   padding: 10px;
+}
+.divisao.foto{
+   align-items: center;
+   justify-content: right;
+ }
+
+ .divisao.info{
+   flex-direction: column;
+ }
+ .divisao p{
+   text-align: left;
+   padding: 0;
+ }
+
+/* estilos do footer */
+.footer {
+   background-color: grey;
+   padding: 90px 0;
+   text-align: center;
+   margin-top: 50px;
+   color: white;
+}
+
+.footer i:hover{
+   cursor: pointer;
+   }
