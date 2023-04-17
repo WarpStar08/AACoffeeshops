@@ -102,7 +102,7 @@ h3 {
 .cardapio .descricao{
    font-size: 16px;
    text-align: left;
-   padding: 5px 15px;
+   padding: 15px 15px;
 }
 .cardapio td, th{
    text-align: center;
